@@ -130,7 +130,17 @@ export default {
 				query: {}
             })
 		}else if(type == 3){
-			window.location.href = (item.link_url_type == 1 ? 'http://' : 'https://') + item.link_url
+			let url = (item.link_url_type == 1 ? 'http://' : 'https://') + item.link_url
+			// #ifdef H5
+			window.location.href = url
+			// #endif
+			// #ifdef MP-WEIXIN
+			console.log(url, encodeURIComponent(url))
+			$mRouter.push({
+				route: $mRoutesConfig.webView,
+				query: {url: encodeURIComponent(url)}
+			})
+			// #endif
 		}else if(type == 4){
 			// router.push({name: 'groupList'})
 		}else if(type == 5){

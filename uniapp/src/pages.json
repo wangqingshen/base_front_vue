@@ -260,6 +260,11 @@
           "navigationBarTitleText": "发表评价"
         }
       },{
+		"path": "pages/webView/index",
+		"style": {
+			"navigationBarTitleText": "外部链接"
+		}
+	  },{
         "path": "pages/evaluate/index",
         "style": {
           "navigationBarTitleText": "评价",

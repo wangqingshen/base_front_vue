@@ -63,6 +63,10 @@ export default {
         name: "首页",
         path: "/pages/index/index"
     },
+    webView: {
+        name: "外链跳转",
+        path: "/pages/webView/index"
+    },
     // register: {
     // 	name: "注册",
     // 	path: "/pages/login/register"

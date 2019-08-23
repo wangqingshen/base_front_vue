@@ -138,7 +138,8 @@
 				this.$mRouter.push({
 					route: this.$mRoutesConfig.evaluate,
 					query: {
-						orderId: this.order_id
+						orderId: this.order_id,
+						storeId: this.item.store_id
 					}
 				})
 			},

@@ -51,6 +51,7 @@
         data(){
             return {
                 order_id: '',
+                store_id: 0,
                 type: 1,
                 queryData: {
                     member_id: '',
@@ -144,6 +145,7 @@
                     title: '发表中'
                 })
                 this.queryData.member_id = this.$store.state.userInfo.member_id
+                this.queryData.store_id = this.store_id
                 this.queryData.order_id = this.order_id
                 this.queryData.evaluation = this.rateList.map((item, index)=>{
                     return {
@@ -175,6 +177,7 @@
         onLoad(options){
             this.type = options.type || 1
             this.order_id = options.orderId || 0
+            this.store_id = options.storeId
             this.type == 1 ? this.showcommentlists() : this.getEvaluationdetail()
             if(this.type == 2) {
                 uni.setNavigationBarTitle({
