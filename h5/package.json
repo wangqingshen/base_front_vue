@@ -1,0 +1,59 @@
+{
+  "name": "drag-site",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "start": "npm run serve",
+    "build": "vue-cli-service build",
+    "alpha": "vue-cli-service build --mode alpha",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "compression-webpack-plugin": "^2.0.0",
+    "element-ui": "^2.5.2",
+    "js-base64": "^2.5.1",
+    "js-sha1": "^0.6.0",
+    "lib-flexible": "^0.3.2",
+    "moment": "^2.24.0",
+    "postcss-px2rem": "^0.3.0",
+    "sortablejs": "^1.8.1",
+    "vant": "^1.6.4",
+    "vue": "^2.5.21",
+    "vue-router": "^3.0.2",
+    "vuedraggable": "^2.17.0",
+    "vuex": "^3.1.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.3.0",
+    "@vue/cli-plugin-eslint": "^3.3.0",
+    "@vue/cli-service": "^3.3.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.8.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "node-sass": "^4.11.0",
+    "postcss-pxtorem": "^4.0.1",
+    "sass-loader": "^7.1.0",
+    "vue-template-compiler": "^2.5.21"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
