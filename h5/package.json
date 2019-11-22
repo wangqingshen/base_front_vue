@@ -19,7 +19,7 @@
     "moment": "^2.24.0",
     "postcss-px2rem": "^0.3.0",
     "sortablejs": "^1.8.1",
-    "vant": "^1.6.4",
+    "vant": "^2.1.8",
     "vue": "^2.5.21",
     "vue-router": "^3.0.2",
     "vuedraggable": "^2.17.0",
