@@ -16,7 +16,7 @@
     "js-base64": "^2.5.1",
     "js-sha1": "^0.6.0",
     "lib-flexible": "^0.3.2",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "postcss-px2rem": "^0.3.0",
     "sortablejs": "^1.8.1",
     "vant": "^1.6.4",
